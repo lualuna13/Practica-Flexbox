@@ -1,0 +1,115 @@
+/*resset basico*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+/*   background-color: rgb(69, 65, 65);
+ */  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* Damos estilos a nuestra card */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200;
+  padding: 24px;
+  margin: auto;
+  gap: 24px;
+}
+
+.card {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+  border-radius: 12px;
+  background-color: rgb(229, 104, 55);
+  box-shadow: 10px 0px 20px rgb(80, 79, 79);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(105%);
+  background-color: rgb(255, 180, 151);
+}
+
+.pokemon-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 180, 81);
+}
+
+.pokemon-info {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.pokemon-name {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.pokemon-type {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.pokemon-description {
+  margin-bottom: 12px;
+}
+
+.pokemon-powers {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pokemon-attack {
+  padding: 4px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: lightsalmon;
+}
+
+.titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 250px;
+  padding: 24px;
+  margin: auto;
+  border-radius: 12px;
+  gap: 24px;
+}
+
+h1 {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  flex-basis: 30%;
+  background-color: rgb(253, 236, 1);
+}
+
+.texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200;
+  padding: 24px;
+  margin: auto;
+  gap: 24px;
+}
